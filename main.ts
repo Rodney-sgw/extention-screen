@@ -3,7 +3,7 @@ namespace screenMagic {
 * LED vypln po sloupcich 
 */
 //% blockId = screenmagicswitchit
-//% block = plot at i
+//% block = "rozsvit $i"
 //% i.min = 0 i.max = 25
 
     export function switchIt(i: number): void {
